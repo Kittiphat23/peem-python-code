@@ -7,6 +7,6 @@ if direction == "1":
     print(f"{amount} / 35.5 = {result}")
 
     if diraction == "2":
-        result = amount = 35.5
+        result = amount * 35.5
         print("Rusult = ",result)
         print(f"{amount} / 35.5 = {result}")
