@@ -58,7 +58,7 @@ def get_divisibility_hint(number):
  
 def get_range_hint(number, current_min=1, current_max=100):
     # Return narrowed range around the number
-    pass
+    print(f"HINT: The narrowed range around the number is {range(number-12, number+12)}")
  
 def get_thefirst_digit_hint(number):
     # Retun the first digit of the number
@@ -99,3 +99,4 @@ while True:
         get_thefirst_digit_hint(random_number)
  
     attempt +=1
+ 
